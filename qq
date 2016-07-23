@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	*{margin:0;padding:0;}
+	.content: {border:1px solid black;
+				margin:5px auto;}
+	.header{margin:30px auto 5px;
+			font-weight:bold; 
+			font-size:20px;
+			text-align:center;}
+	.inf{background:#ECECEC;
+		width:713px;
+		height:32px;
+		margin:10px auto;
+		text-align:left;
+		line-height:32px;
+		font-weight:bold;
+		clear:both;}
+	.inf2{width:713px;				
+		margin:10px auto;}
+	.inf2 ul{list-style:none;
+			line-height:30px;
+			float:left;
+			width:325px;
+			height:131px;
+			font-size:15px;}
+	.inf3 ul{list-style:none;
+			line-height:30px;
+			float:left
+			height:131px;
+			font-size:15px;}
+	#me,#work,#work1,#student,#cet{list-style:none;
+		width:713px;
+		margin:0 auto;
+		line-height:30px;
+		font-size:15px;}
+		span{font-weight:bold;}
+
+	</style>
+</head>
+<body>
+	<div class="header">
+		简历
+	</div>
+	<div class="content">
+		<!--inf代表information全称，为方便填写，以下用inf1、inf2代替-->
+		<div class="inf">个人信息</div>
+		<div class="inf2">
+			<ul >
+				<li>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：&nbsp;&nbsp;&nbsp;&nbsp;</li>
+				<li>出生日期：&nbsp;&nbsp;&nbsp;&nbsp;1992年9月 3日 	</li>
+				<li>工作年限：&nbsp;&nbsp;&nbsp;&nbsp;2年	</li>
+				<li>手&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机：&nbsp;&nbsp;&nbsp;&nbsp;1</li>
+			</ul>
+		</div>
+		<div class="inf3">
+			<ul >
+				<li>性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp别：&nbsp;&nbsp;&nbsp;&nbsp;男</li>
+				<li>居&nbsp;&nbsp;住&nbsp;&nbsp;地：&nbsp;&nbsp;&nbsp;&nbsp;舟山 	</li>
+				<li>电子邮件：&nbsp;&nbsp;&nbsp;&nbsp;972981559@qq.com	</li>
+				<li>户&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;口：&nbsp;&nbsp;&nbsp;&nbsp;浙江舟山</li>
+			</ul>
+		</div>
+		<div class="inf"> 自我评价</div>
+		<ul id="me">
+			<li>本人做事认真负责，吃苦耐劳，具有较好的沟通能力和团队合作精神，英语听说较好。</li>
+			<li>自学能力较好，喜欢学习新知识，目前自学网页制作，对html标记语言、css+div布局有一定的认识。</li>
+		</ul>
+		<div class="inf"> 工作经验</div>
+			<ul id="work">
+				<li>2014 /8—2016/7:&nbsp;&nbsp;&nbsp;&nbsp;扬帆集团 </li>
+				<li><span>企划处:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;企划管理员</span> </li>
+			</ul>	
+			<ol id="work1">
+				<li>1、组织推进课题攻关、对标体系建设等各项降本增效活动，并对优秀课题进行审核奖励。 </li>
+				<li>2、完成领导交予的调研报告及课题简报制作。</li>
+			</ol>
+			<center><hr width="713" align="center" /></center>
+			<ul id="work">
+				<li>2014 /7--2014 /8&nbsp;&nbsp;&nbsp;&nbsp;舟山海通外代有限公司 </li>
+				<li><span>供货部:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;实习业务员 </span> </li>
+			</ul>	
+			<ol id="work1">
+				<li>1、将货物与补给送到外国货轮上，并与船上负责人当面清点完。</li>
+				<li>2、向停靠在舟山码头的外国货轮负责人进行交流，推销补给。</li>
+			</ol>
+		<div class="inf"> 教育经历</div>
+			<ul id="student">
+				<li>2010 /9 -- 2014 /7&nbsp;&nbsp;&nbsp;&nbsp;东北大学 &nbsp;&nbsp;&nbsp;&nbsp;材料物理&nbsp;&nbsp;&nbsp;&nbsp;本科 </li>
+				<li>材料物理是从物理学原理出发提供材料结构、特性与性能的一门新兴交叉学科，主要面向新能源与新信息等新功能材料探索。 </li>
+				<li>主要课程：物理学、材料科学基础、材料物理学、固体物理学等。</li>
+				<li>大学实习：大二、大三分别参观学习了本溪钢铁集团和鞍山钢铁集团的检测实验室，对钢铁的硬度、金相观察有了一定的认识。</li>
+			</ul>	
+		<div class="inf"> 证书</div>
+			<ul id="cet">
+				<li>2012 /12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大学英语六级 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;427 </li>
+				<li>2012 /06&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大学英语四级 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;481 </li>
+			</ul>		
+	</div>
+
+	
+</body>
+</html>
